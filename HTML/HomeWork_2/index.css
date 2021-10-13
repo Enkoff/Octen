@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: "Apple Symbols";
+    font-size: 25px;
+    background-color: rgb(106, 90, 205);
+    color: #ffffff;
+}
+.header_title {
+    margin: 0;
+    top: 0;
+    text-align: center;
+    background-color: rgb(90, 80, 200);
+    position: fixed;
+    width: 100%;
+}
+.header_subtitle {
+    text-align: center;
+}
+.elon_image_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.elon_image {
+    display: inline-block;
+    justify-content: center;
+    width: 300px;
+}
+.oval_title {
+    display: inline-block;
+    text-align: center;
+    border: 1px solid white;
+    width: 300px;
+    padding: 10px;
+    border-radius: 25px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.description {
+    text-align: center;
+    padding: 0 20px;
+}
+.list_title {
+    text-align: center;
+    background-color: aqua;
+}
+.list {
+    display: flex;
+    justify-content: center;
+}
+.list_item {
+    margin-right: 50px;
+}
