@@ -13,6 +13,11 @@ body {
     width: 100%;
     color: white;
 }
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .header {
     height: 10%;
     background-color: cornflowerblue;
@@ -26,19 +31,17 @@ body {
     background-color: darkblue;
 }
 .main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 70%;
-    height: 100%;
     background-color: aqua;
 }
-.aside {
+.main_box {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30%;
     height: 100%;
+}
+.aside {
+    width: 30%;
     background-color: darkcyan;
 }
 .footer {

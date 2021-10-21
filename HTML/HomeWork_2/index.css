@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    font-family: "Apple Symbols";
     font-size: 25px;
     background-color: rgb(106, 90, 205);
     color: #ffffff;
@@ -52,4 +51,7 @@ body {
 }
 .list_item {
     margin-right: 50px;
+}
+
+.main__left__footer {
 }
