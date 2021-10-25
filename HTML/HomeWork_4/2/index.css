@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-size: 25px;
+}
+.root {
+    width: 100vw;
+    height: 100vh;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+}
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header {
+    height: 10%;
+    background-color: cornflowerblue;
+}
+.nav {
+    height: 5%;
+    background-color: darkblue;
+}
+.main_container {
+    height: 70%;
+    background-color: darkblue;
+}
+.main {
+    width: 70%;
+    background-color: aqua;
+}
+.main_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.aside {
+    width: 30%;
+    background-color: darkcyan;
+}
+.footer {
+    height: 15%;
+    background-color: cornflowerblue;
+}
+

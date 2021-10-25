@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    font-size: 25px;
+}
+.d-flex {
+    display: flex;
+}
+.root {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    color: white;
+}
+
+.w50_h100 {
+    width: 50%;
+    height: 100%;
+}
+
+#header {
+    height: 100px;
+}
+
+.main_container {
+    height: 200px;
+    margin-top: 5px;
+    flex-direction: row;
+    background-color: white;
+}
+
+#menu {
+    margin-right: 5px;
+}
+
+.post_container {
+    flex-direction: column;
+    row-gap: 5px;
+    background-color: white;
+}
+
+.post {
+    width: 100%;
+    height: 49%;
+}
+
+#footer {
+    height: 100px;
+    margin-top: 5px;
+}
+

@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-size: 25px;
+}
+
+.d-flex_w60 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+
+.root {
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.widgets {
+    height: 100px;
+    background-color: blue;
+    margin-bottom: 10px;
+}
+
+.main_container {
+    height: 100px;
+    column-gap: 10px;
+    font-size: 12px;
+}
+
+.main_item {
+    height: 100%;
+    width: 33.33%;
+    background-color: darkblue;
+}
+
+.contact {
+    height: 200px;
+    margin-top: 10px;
+    background-color: blue;
+}
