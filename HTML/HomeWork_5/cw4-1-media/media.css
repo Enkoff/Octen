@@ -1,0 +1,24 @@
+@media screen and (max-width: 768px) {
+    .header {
+        height: 500px;
+    }
+    .header_section {
+        box-sizing: border-box;
+        padding: 10px;
+    }
+    .section_footer {
+        flex-direction: column;
+        row-gap: 5%;
+    }
+    .section_footer > .blue_box_container {
+        width: 80px;
+    }
+    .footer {
+        padding: 5% 0;
+        height: 500px;
+    }
+    .footer_section {
+        row-gap: 5%;
+        flex-direction: column;
+    }
+}

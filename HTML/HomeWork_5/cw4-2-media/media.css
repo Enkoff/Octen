@@ -1,0 +1,109 @@
+@media screen and (max-width: 992px) {
+    .section__two_icon {
+        width: 15%;
+    }
+
+    .section__three .section__three_main {
+        width: 40%;
+        height: 100%;
+    }
+
+    .section__four_main {
+        width: 60%;
+    }
+
+    .section__five .main__footer_container {
+        width: 20%;
+        height: 60%;
+    }
+
+    .section__five .main__footer_container .box {
+        margin-top: 20%;
+    }
+
+    .six__main_box {
+        width: 25%;
+    }
+
+    .section__six_footer > .footer__box {
+        width: 42%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .section__one {
+        justify-content: center;
+    }
+
+    .section__two {
+        justify-content: center;
+    }
+
+    .section__two_icon {
+        display: none;
+    }
+
+    .section__three_main .main__wrapper_three {
+        width: 70%;
+        height: 8%;
+    }
+
+    .section__four {
+        height: 800px;
+    }
+
+    .section__four .four__main_header {
+        height: 10%;
+    }
+    .section__four_main {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .section__four .four__main_footer {
+        flex-direction: column;
+    }
+
+    .section__four .section__four_main .main__footer_container {
+        width: 35%;
+    }
+
+    .section__four .section__four_main .main__footer_container .box {
+        height: 80%;
+    }
+
+    .section__five {
+        flex-direction: column;
+        height: 650px;
+    }
+    .section__six {
+        height: 1800px;
+    }
+    .section__six_header {
+        height: 100px;
+    }
+    .section__six_main {
+        height: 1000px;
+        row-gap: 20px;
+        box-sizing: border-box;
+    }
+    .section__six_footer {
+        height: 300px;
+    }
+    .section__six_main {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 80%;
+        column-gap: 10%;
+    }
+    .section__six_footer > .footer__box {
+        width: 35%;
+    }
+    .footer__box_title {
+        margin-bottom: 20px;
+    }
+    .footer__box_description {
+        row-gap: 6px;
+        margin-bottom: 20px;
+    }
+}
