@@ -59,8 +59,10 @@ table {
 
 }
 /*Hamburger menu*/
-.hamburger {
+.hamburger__menu__btn_container {
     display: none;
+}
+.hamburger__menu_btn {
     background: var(--light-orang);
     display: inline-block;
     position: relative;
@@ -68,7 +70,7 @@ table {
     height: 3.25px;
     border-radius: 50px;
 }
-.hamburger:before {
+.hamburger__menu_btn:before {
     background: var(--light-orang);
     content: '';
     position: absolute;
@@ -78,7 +80,7 @@ table {
     height: 3.25px;
     border-radius: 50px;
 }
-.hamburger:after {
+.hamburger__menu_btn:after {
     background: var(--light-orang);
     content: '';
     position: absolute;
