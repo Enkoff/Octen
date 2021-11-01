@@ -1,0 +1,39 @@
+:root {
+    --blue: #0b2e41;
+    --aqua: #00c7ea;
+    --gery: #d3d3d3
+}
+.border__color_aqua {
+    border: 1px solid var(--aqua);
+}
+.bg__blue {
+    background-color: var(--blue);
+}
+.bg__grey {
+    background-color: var(--gery);
+}
+.circle {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px
+}
+
+.w-40 {
+    width: 40%;
+}
+.w-8 {
+    width: 8%;
+}
+.w-15 {
+    width: 15%;
+}
+.h-300 {
+    height: 300px;
+}
+.h-20 {
+    height: 20%;
+}
+.h-10 {
+   height: 10%;
+}
