@@ -1,0 +1,203 @@
+@media screen and (max-width: 1200px) {
+    .first__screen .container .row h1 {
+        font-size: 34px;
+        line-height: 40px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .first__screen .container .row .screen__left_text {
+        display: none;
+    }
+
+    .first__screen_left .line {
+        display: block;
+    }
+
+    .first__screen_right span {
+        display: block;
+        margin-bottom: 50px;
+    }
+
+    .first__screen .row__bottom {
+        flex-direction: column-reverse !important;
+    }
+
+    .first__screen_left h2 {
+        font-size: 18px;
+        text-align: center;
+        margin-top: 0;
+    }
+
+    /*second__screen*/
+    .second__screen {
+        margin-top: 50px;
+    }
+
+    .second__screen .container {
+        padding: 0;
+    }
+
+    .second__screen .left__section {
+        padding: 0;
+    }
+
+    .second__screen .left__section img {
+        width: 100%;
+    }
+
+    .second__screen .row {
+        margin: 0;
+    }
+
+    .second__screen .row .col-xxl-8 {
+        padding: 39px 25px 25px 25px;
+    }
+
+    .second__screen .right__section {
+        /*background: #FF7400;*/
+    }
+
+    .second__screen .right__section .right__section_text {
+        font-size: 16px;
+        letter-spacing: -0.4px;
+    }
+
+    /*third__screen*/
+    .third__screen .row {
+        flex-direction: column-reverse;
+    }
+
+    .third__screen .row .right__section {
+        padding-left: 1px;
+        background-size: auto;
+        background-image: url("../image/IconHotToCold-2.png");
+    }
+
+    .third__screen .left__section h2 {
+        font-size: 18px;
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .third__screen .left__section .text__italic {
+        font-style: italic;
+    }
+
+    /*fourth__screen*/
+    .fourth__screen .row h2 {
+        font-size: 20px;
+    }
+
+    .fourth__screen .card {
+        width: 359px;
+    }
+
+    /*fifth__screen*/
+    .fifth__screen {
+        padding-bottom: 2px;
+    }
+
+    .fifth__screen .container .row {
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .fifth__screen .container .row h2 {
+        font-size: 20px;
+    }
+
+    .fifth__screen .container .row .text {
+        padding-bottom: 20px;
+    }
+
+    /*sixth__screen*/
+    .sixth__screen .container h2 {
+        margin-top: 30px;
+        font-size: 20px;
+    }
+
+    .sixth__screen .container img {
+        width: 100%;
+    }
+
+    .sixth__screen .container .container {
+        padding-right: 0;
+        padding-bottom: 0;
+    }
+
+    .sixth__screen .container .container .btn__left, .btn__right {
+        display: none;
+    }
+
+    .sixth__screen .container h3 {
+        margin-bottom: 0;
+    }
+
+    .sixth__screen .row {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .sixth__screen .row .button {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*seventh__screen*/
+    .seventh__screen .row {
+        width: 100%;
+        flex-direction: column-reverse;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .seventh__screen .row .col-4 {
+        width: 100%;
+    }
+
+    .seventh__screen .row .right {
+        margin-top: 48px;
+    }
+
+    .seventh__screen .row .center {
+        margin-top: 32px;
+        margin-bottom: 13px;
+        width: 100%;
+    }
+
+    .seventh__screen .row .center .btn {
+        width: 107%;
+    }
+
+    .seventh__screen .row .left .top-title {
+        display: none;
+    }
+
+    /*footer*/
+    .footer .container .row {
+        flex-direction: column;
+    }
+    .footer .container .row .col-3 {
+        justify-content: flex-start;
+    }
+
+    .footer .container .row .col-3 {
+        width: 100%;
+    }
+
+    .footer .container .row h5 {
+        font-size: 16px;
+    }
+
+    .footer .container .row p {
+        font-size: 16px;
+    }
+
+    .footer .container .row .right {
+        margin-top: -20px;
+    }
+}

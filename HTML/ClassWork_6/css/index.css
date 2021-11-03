@@ -1,0 +1,493 @@
+:root {
+
+}
+
+.header {
+    background: rgba(255, 255, 255, 0.3);
+    mix-blend-mode: normal;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    border: 2px solid transparent;
+    border-radius: 8px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    border: 2px solid #EAEDF5;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: #2E75FF;
+}
+
+.first__screen_left {
+    margin-top: 100px;
+}
+
+.first__screen_right img {
+    width: 100%;
+}
+
+.first__screen_left h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 54px;
+    letter-spacing: -0.4px;
+    color: #1652AC;
+}
+
+.first__screen_left .line {
+    display: none;
+    margin: 0 auto;
+    width: 227px;
+    height: 7px;
+    background-color: #EDEFF3;
+}
+
+.first__screen_left .screen__left_text {
+    position: relative;
+    margin-top: 150px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    color: #020303;
+}
+
+.first__screen_right span {
+    display: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: -0.004em;
+    color: #020303;
+}
+
+.first__screen_left .screen__left_text::before, .screen__left_text::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 227px;
+    height: 7px;
+    background-color: #EDEFF3;
+}
+
+.first__screen_left .screen__left_text::before {
+    top: -55px;
+}
+
+.first__screen_left .screen__left_text::after {
+    bottom: -55px;
+}
+
+.first__screen_left h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 2.42px;
+    color: #1652AC;
+    z-index: 2;
+}
+
+.first__screen_left .screen__left_text-two {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+    color: #45494F;
+    z-index: 2;
+}
+
+/*second__screen*/
+.second__screen {
+    margin-top: 180px;
+}
+
+.second__screen .right__section {
+    background: linear-gradient(180deg, #163DA2 0%, #003584 100%);
+}
+
+.right__section {
+    padding: 151px 217px 119px 187px;
+}
+
+.second__screen .right__section h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 2.42px;
+    color: #FBFDFF;
+    margin-bottom: 22px;
+}
+
+.second__screen .right__section .right__section_text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+    color: #FBFDFF;
+}
+
+/*third__screen*/
+
+.third__screen .left__section h2 {
+    margin-top: 91px;
+    margin-bottom: 41px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 2.42px;
+    text-transform: uppercase;
+    color: #1652AC;
+}
+
+.third__screen .left__section .left__section_text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+    color: #45494F;
+}
+
+.third__screen .right__section {
+    background-image: url("../image/IconHotToCold.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*fourth__screen*/
+
+.fourth__screen .container {
+    background-color: #FBFBFC;
+}
+
+.fourth__screen .container .row {
+    margin-bottom: 57px;
+}
+
+.fourth__screen h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 4.42px;
+    color: #020303;
+    text-align: center;
+    margin-top: 67px;
+    margin-bottom: 71px;
+}
+
+.fourth__screen .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 422px;
+    height: 136px;
+    background: #FFFFFF;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+    margin: 9px;
+}
+
+.fourth__screen .card .card__wrapper img {
+    margin-right: 40px;
+}
+
+.fourth__screen .card .card__wrapper h5 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    color: #45494F;
+}
+
+/*fifth__screen*/
+.fifth__screen .container {
+    background-color: #FBFBFC;
+    margin-bottom: 1px;
+}
+
+.fifth__screen .container .row {
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.fifth__screen .container .row h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 4.42px;
+    color: #020303;
+    margin-top: 100px;
+    margin-bottom: 71px;
+}
+
+.fifth__screen .container .row .text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 35px;
+    letter-spacing: -0.4px;
+    color: #45494F;
+}
+
+.fifth__screen .container .row .text span {
+    font-weight: bold;
+}
+
+.fifth__screen .container .row .text .number {
+    margin-right: 30px;
+}
+
+/*sixth__screen*/
+.sixth__screen .container {
+    background-color: #FBFBFC;
+    padding-bottom: 82px;
+}
+
+.sixth__screen .container .row {
+
+}
+
+.sixth__screen .container h2 {
+    margin-top: 57px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 4.42px;
+    color: #020303;
+    margin-bottom: 31px;
+}
+
+.sixth__screen .container img {
+    width: 610px;
+    margin-bottom: 29px;
+}
+
+.sixth__screen .container .container {
+    display: flex;
+    justify-content: center;
+    padding-right: 200px;
+    margin-bottom: 78px;
+}
+
+.sixth__screen .container .container .btn__left, .btn__right {
+    width: 126px;
+    height: 78px;
+    background: #FFFFFF;
+    box-shadow: 0 0 21px rgba(64, 68, 75, 0.14);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.sixth__screen .container .container .btn__left {
+    margin-right: 18px;
+    background-image: url("../image/arrow-left.png");
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sixth__screen .container .container .btn__right {
+    background-image: url("../image/arrow-right.png");
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 91px;
+}
+
+.sixth__screen .container .container .circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #80ABFF;
+    border: 1px solid #BED8FF;
+}
+
+.sixth__screen .container .container .circle::before, .circle::after {
+    content: '';
+    display: block;
+    position: absolute;
+    text-align: center;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid #BED8FF;
+}
+
+.sixth__screen .container .container .circle::before {
+    right: 26px;
+    background: linear-gradient(180deg, #005BE4 0%, rgba(0, 96, 241, 0) 100%), #004FC7;
+    border: 1px solid #BED8FF;
+    opacity: 1;
+}
+
+.sixth__screen .container .container .circle::after {
+    left: 26px;
+    background-color: #80ABFF;
+    border: 1px solid #BED8FF;
+}
+
+.sixth__screen .container h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 2.42px;
+    color: #020303;
+    margin-bottom: 31px;
+}
+
+.sixth__screen .row .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 31%;
+    height: 64px;
+    background: linear-gradient(180deg, #0C5CD6 0%, rgba(0, 56, 140, 0) 100%), #004FC7;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.21);
+    border-radius: 12px;
+    cursor: pointer;
+    margin: 8px;
+}
+
+.sixth__screen .row .button h5 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 40px;
+    letter-spacing: 1.42px;
+    text-align: center;
+    color: #FAFBFE;
+}
+
+/*seventh__screen*/
+.seventh__screen {
+    border-bottom: 2px solid #EEF0F4;
+}
+
+.seventh__screen .row .center {
+    margin-top: 73px;
+    margin-bottom: 77px;
+}
+
+.seventh__screen .row .center .text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+    text-align: left;
+    letter-spacing: -0.4px;
+    color: #464C53;
+}
+
+.seventh__screen .row .center .email {
+    color: blue;
+    cursor: pointer;
+}
+
+.seventh__screen .row .center .btn {
+    width: 270px;
+    height: 69px;
+    background: linear-gradient(180deg, #0C5CD6 0%, rgba(0, 56, 140, 0) 100%), #004FC7;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0 1px 4px rgba(48, 67, 133, 0.5);
+    border-radius: 12px;
+    position: relative;
+}
+
+.seventh__screen .row .center .btn h6 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    position: absolute;
+    top: 30%;
+}
+
+.seventh__screen .row .center .btn img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+}
+
+.seventh__screen .row .left h5 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 43px;
+    letter-spacing: -0.4px;
+    color: #1652AC;
+}
+
+/*footer*/
+.footer .container .row {
+    padding-top: 49px;
+    padding-bottom: 44px;
+}
+.footer .container .row .col-3 {
+    display: flex;
+    justify-content: center;
+}
+.footer .container .row h5 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    color: #A3ADBA;
+}
+
+.footer .container .row p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    color: #9EABBB;
+}
+
+.footer .container .row .number {
+    color: black;
+}
+
+.footer .container .row .email {
+    color: blue;
+}
+
+.footer .container .row .underline {
+    text-decoration: underline;
+}
+
+.footer .container .row .right {
+    margin-top: 39px;
+}
