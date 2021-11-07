@@ -508,6 +508,9 @@
         border-top: 1px solid #203246;
         padding: 15px 0 15px 20px;
     }
+    .choice__city {
+        left: 1.1rem;
+    }
 }
 
 
@@ -596,6 +599,7 @@
 
     .header__bottom .bottom .btn {
         padding: 8px;
+        max-width: 40px;
     }
 
     nav {
@@ -1101,6 +1105,7 @@
     .footer .bottom__box {
         margin-bottom: 0;
         padding: 15px 0 15px 15px;
+        height: 102px;
     }
 
     .footer .bottom__box span {
@@ -1134,6 +1139,52 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
+    }
+    .search__330 {
+        width: 86%;
+    }
+}
+@media screen and (max-width: 329px) {
+    .carousel-item .slide__bg {
+        width: 290px;
+        height: 195px;
+    }
+    .carousel.pointer-event {
+        width: 100%;
+    }
+    .main .section__one .carousel-item .disk {
+        top: 10px;
+        right: 0;
+        width: 131px;
+        height: 111px;
+    }
+    .carousel-item .content__container {
+        top: 18px;
+    }
+    .menu__content {
+        justify-content: space-around;
+    }
+    .section__three .btn__container .btn__one {
+        width: 164px;
+        margin-right: 10px;
+    }
+    .section__three .btn__container .btn__two {
+        width: 82px;
+        margin-right: 10px;
+    }
+    .section__three .grid__cards_container .grid__card {
+        margin-right: 6px;
+    }
+    .section__three .grid__cards_container .grid__card .card__title {
+        width: 130px;
+    }
+    .section__three .grid__cards_container .grid__card .card__img:first-child {
+        width: 136px;
+        height: 120px;
+    }
+    .footer .bottom__box {
+        display: flex;
+        justify-content: center;
     }
 }
 
