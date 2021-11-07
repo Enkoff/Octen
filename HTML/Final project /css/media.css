@@ -508,6 +508,9 @@
         border-top: 1px solid #203246;
         padding: 15px 0 15px 20px;
     }
+    .choice__city {
+        left: 1.1rem;
+    }
 }
 
 

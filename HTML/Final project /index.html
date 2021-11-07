@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -80,7 +80,7 @@
                     </div>
                     <div class="tel">
                         <a href="tel:+7 383 291 92 86">+7 383 291 92 86</a>
-                        <h5>форма обратной связи</h5>
+                        <h5 class="tel__form">форма обратной связи</h5>
                     </div>
                 </div>
             </div>
@@ -671,6 +671,41 @@
             </a>
         </div>
     </div>
+    <div id="choice__city" class="choice__city display__none">
+        <div class="choice__header">
+            <span>Выберите свой город</span>
+            <img class="exit" src="./image/x-icon.svg" alt="x">
+        </div>
+        <input type="text" placeholder="Ваш город">
+        <div class="list">
+            <span>Москва</span>
+            <span>Санкт-Петербург</span>
+            <span>Краснодар</span>
+            <span>Екатеринбург</span>
+            <span>Ростов-на-Дону</span>
+            <span>Самара</span>
+        </div>
+    </div>
+    <div id="call" class="call choice__city display__none">
+        <div class="choice__header">
+            <span>Заказать звонок</span>
+            <img class="exit exit_call" src="./image/x-icon.svg" alt="x">
+        </div>
+        <input class="first__input" type="text">
+        <span class="first__input_placeholder">Ваше имя</span>
+        <input class="second__input first__input" type="text">
+        <span class="second__input_placeholder first__input_placeholder">Номер телефона</span>
+        <div class="second__input_content">
+            <div class="left__content">
+                <img src="./image/russian-icon.jpeg" alt="russian--flag">
+                <img src="./image/arrow-down_call.svg" alt="arrow-down">
+            </div>
+            <div class="right__content">
+                +7 <span> (999) 999-99-99</span>
+            </div>
+        </div>
+        <div class="btn">Заказать звонок</div>
+    </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
@@ -678,5 +713,6 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>
+<script src="./index.js"></script>
 </body>
 </html>
