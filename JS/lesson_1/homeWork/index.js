@@ -15,18 +15,44 @@ let boolTrue = true;
 let boolFalse = false;
 
 console.log(greeting);
+alert(greeting);
+document.write(greeting);
 console.log(owu);
+alert(owu);
+document.write(owu);
 console.log(com);
+alert(com);
+document.write(com);
 console.log(ua)
+alert(ua);
+document.write(ua);
 console.log(one)
+alert(one);
+document.write(one);
 console.log(ten)
+alert(ten);
+document.write(ten);
 console.log(minusNineHundredNinetyNine)
+alert(minusNineHundredNinetyNine);
+document.write(minusNineHundredNinetyNine);
 console.log(hundredTwentyThree)
+alert(hundredTwentyThree);
+document.write(hundredTwentyThree);
 console.log(pi)
+alert(pi)
+document.write(pi);
 console.log(twoSeventh);
+alert(twoSeventh);
+document.write(twoSeventh);
 console.log(sixteen);
+alert(sixteen);
+document.write(sixteen);
 console.log(boolTrue);
+alert(boolTrue);
+document.write(boolTrue);
 console.log(boolFalse);
+alert(boolFalse);
+document.write(boolFalse);
 
 // - Переприсвоїти кожній змінній з завдання значення на довільне.
 //     Вивести кожну змінну за допомогою: console.log , alert, document.write
@@ -65,12 +91,7 @@ let lastName = 'Yenko';
 let firstName = 'Oleh';
 let middleName = 'Hennadievich';
 
-const person = {
-    firstName: firstName,
-    middleName: middleName,
-    lastName: lastName,
-}
-
+const person = `${firstName} ${middleName} ${lastName}`;
 
 // - За допомогою 3х різних prompt() отримати 3 слова які являються вашими Імям, По-Батькові та роками.
 //     Вивести "Вітаю *Імя* *По батькові*. Тобі *вік* років".
