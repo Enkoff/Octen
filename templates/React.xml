@@ -1,0 +1,5 @@
+<templateSet group="React">
+  <template name="rnt" value="import React from 'react';&#10;import {StyleSheet} from 'react-native';&#10;&#10;const $TM_FILENAME_BASE$ = (props) =&gt; {&#10;&#10;  return (&#10;      &lt;View style={styles.screen}&gt;&#10;      &lt;Text&gt;&#10;      $TM_FILENAME_BASE$&#10;      &lt;/Text&gt;&#10;      &lt;/View&gt;&#10;      );&#10;};&#10;&#10;const styles = StyleSheet.create({&#10;  screen: {&#10;    flex:1,&#10;    justifyContent: 'center',&#10;    alignItems: 'center'&#10;  },&#10;});&#10;&#10;export default $TM_FILENAME_BASE$;&#10;" description="rnt" toReformat="false" toShortenFQNames="true">
+    <variable name="TM_FILENAME_BASE" expression="" defaultValue="" alwaysStopAt="true" />
+  </template>
+</templateSet>
