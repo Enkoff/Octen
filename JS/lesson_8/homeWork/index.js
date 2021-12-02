@@ -1,4 +1,4 @@
-// Візьміть файл template1.html, підключіть до нього скрипт, і працюйте в ньому!
+// Візьміть файл index.html, підключіть до нього скрипт, і працюйте в ньому!
 //- Напишіть код,  який за допомоги document.getElementById або document.getElementsByClassName або document.getElementsByTagName :
 // -- отримує текст з параграфа з id "content"
 const content = document.getElementById('content');

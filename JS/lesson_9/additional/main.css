@@ -1,0 +1,14 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid blue;
+    padding: 20px;
+    margin: 10px;
+}
+
+.box {
+    border: 1px solid lightseagreen;
+    padding: 10px;
+    margin: 5px;
+    list-style-type: none;
+}

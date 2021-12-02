@@ -1,0 +1,39 @@
+.wrapper {
+    width: 300px;
+    border: 2px solid red;
+    padding: 10px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+}
+
+h3 {
+    text-align: center;
+    border: 1px solid blue;
+    padding: 10px;
+    font-size: 15px;
+    margin: 0 0 10px 0;
+}
+
+.number__wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.box {
+    border: 1px solid blue;
+    width: 70%;
+    text-align: center;
+    padding: 2px;
+}
+
+.box:first-child {
+    width: 20%;
+}
+
+ul {
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+}
