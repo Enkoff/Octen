@@ -45,37 +45,36 @@
 // Всі характеристики повинні мати свої блоки всередені div.comment
 // https://jsonplaceholder.typicode.com/comments
 
-
-fetch('https://jsonplaceholder.typicode.com/comments').then(res => res.json()).then(json => {
-    json.forEach(comment => {
-        const div = document.createElement('div');
-        div.classList.add('comment');
-
-        const id = document.createElement('div');
-        id.classList.add('comment__item');
-        id.innerText = `ID: ${comment.id}`;
-        div.appendChild(id);
-
-        const postId = document.createElement('div');
-        postId.classList.add('comment__item');
-        postId.innerText = `PostId: ${comment.id}`;
-        div.appendChild(postId);
-
-        const body = document.createElement('div');
-        body.classList.add('comment__item');
-        body.innerText = `Body: ${comment.body}`;
-        div.appendChild(body);
-
-        const name = document.createElement('div');
-        name.classList.add('comment__item');
-        name.innerText = `Name: ${comment.name}`;
-        div.appendChild(name);
-
-        const email = document.createElement('div');
-        email.classList.add('comment__item');
-        email.innerText = `Email: ${comment.email}`;
-        div.appendChild(email);
-
-        document.body.appendChild(div);
-    });
-});
+// fetch('https://jsonplaceholder.typicode.com/comments').then(res => res.json()).then(json => {
+//     json.forEach(comment => {
+//         const div = document.createElement('div');
+//         div.classList.add('comment');
+//
+//         const id = document.createElement('div');
+//         id.classList.add('comment__item');
+//         id.innerText = `ID: ${comment.id}`;
+//         div.appendChild(id);
+//
+//         const postId = document.createElement('div');
+//         postId.classList.add('comment__item');
+//         postId.innerText = `PostId: ${comment.id}`;
+//         div.appendChild(postId);
+//
+//         const body = document.createElement('div');
+//         body.classList.add('comment__item');
+//         body.innerText = `Body: ${comment.body}`;
+//         div.appendChild(body);
+//
+//         const name = document.createElement('div');
+//         name.classList.add('comment__item');
+//         name.innerText = `Name: ${comment.name}`;
+//         div.appendChild(name);
+//
+//         const email = document.createElement('div');
+//         email.classList.add('comment__item');
+//         email.innerText = `Email: ${comment.email}`;
+//         div.appendChild(email);
+//
+//         document.body.appendChild(div);
+//     });
+// });
