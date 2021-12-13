@@ -45,15 +45,30 @@ users.forEach(user => {
             localStorage.setItem('favorites', JSON.stringify([user]));
         } else {
             const favorites = JSON.parse(localStorage.getItem('favorites'));
-            favorites.push(user);
-            localStorage.setItem('favorites', JSON.stringify(favorites));
+            const check = favorites.find(u => {
+                return u.name === user.name && u.age === user.age;
+            });
+
+            if (check === undefined) {
+                favorites.push(user);
+                localStorage.setItem('favorites', JSON.stringify(favorites));
+            }
         }
     })
     div.appendChild(btn);
 
-    body.appendChild(div);
+    body.append(div);
 })
 
+const nextPageBtn = document.createElement('button');
+nextPageBtn.classList.add('next__page_btn')
+nextPageBtn.innerText = 'Go to favorites page';
+
+nextPageBtn.onclick = () => {
+    window.location.href = 'favorites.html';
+}
+
+body.append(nextPageBtn);
 
 
 
