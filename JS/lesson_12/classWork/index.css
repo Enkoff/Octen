@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+.post__body {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 10px;
+}
+.top__box {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+}
+.bottom__box {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    background-color: #d6ebec;
+    margin-left: 30px;
+    box-sizing: border-box;
+    padding: 5px;
+    overflow: hidden;
+    transition: .5s;
+}
+.bottom__box_disable {
+    height: 0;
+    padding: 0;
+    transition: .5s;
+}
