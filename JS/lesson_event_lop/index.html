@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    // Зробити свій розпорядок дня. // // У вас має бути більше 10 асинхронних дій з рандомними затримками.
+    // Вам необхідно синхронізувати всі свої дії за допомогою промісів та async await (Код має бути написаний окремо)
+    // Затримка має бути НЕ в порядку зростання, а будь яка. При тому ваші дії мають бути синхронізовані.
+    // // Напиклад. // Прикнутись - 0.3с // Поснідати - 1с // Піти в душ - 0.5с // Дочекатись автобус - 3с // Пообідати - 1с // // І так далі
+
+    //Розпорядок дня за допомогою SetTimeout
+    //     const wakeUp = () => {
+    //         setTimeout(() => {
+    //             console.log('Прокинутись');
+    //             setTimeout(() => {
+    //                 console.log('Випити води');
+    //                 setTimeout(() => {
+    //                     console.log('Сходив в туалет');
+    //                     setTimeout(() => {
+    //                         console.log('Одягнутисья');
+    //                         setTimeout(() => {
+    //                             console.log('Прогріти автомобіль');
+    //                             setTimeout(() => {
+    //                                 console.log('Завести дружину на роботу');
+    //                                 setTimeout(() => {
+    //                                     console.log('Поїхати на заправку');
+    //                                     setTimeout(() => {
+    //                                         console.log('Заправити автомобіль');
+    //                                         setTimeout(() => {
+    //                                             console.log('Випити каву');
+    //                                             setTimeout(() => {
+    //                                                 console.log('Поїхати на роботу');
+    //                                             }, 1000);
+    //                                         }, 100);
+    //                                     }, 200);
+    //                                 }, 400);
+    //                             }, 1500);
+    //                         }, 800);
+    //                     }, 700);
+    //                 }, 300);
+    //             }, 200);
+    //         }, 500);
+    //     }
+    //
+    // wakeUp();
+
+
+    // Розпорядок дня за допомогою Промісів
+    // const wakeUp = () => {
+    //     console.log('Прокинутись');
+    //     return new Promise((resolve, reject) => {
+    //         setTimeout(() => {
+    //             resolve('Випити води');
+    //         }, 1000);
+    //     }).then(response => {
+    //         console.log(response);
+    //         return new Promise((resolve, reject) => {
+    //             setTimeout(() => {
+    //                 resolve('Сходив в туалет')
+    //             }, 300);
+    //         });
+    //     }).then(response => {
+    //         console.log(response);
+    //         return new Promise((resolve, reject) => {
+    //             setTimeout(() => {
+    //                 resolve('Одягнутисья')
+    //             }, 700);
+    //         }).then(response => {
+    //             console.log(response);
+    //             return new Promise((resolve, reject) => {
+    //                 setTimeout(() => {
+    //                     resolve('Прогріти автомобіль')
+    //                 }, 800);
+    //             });
+    //         }).then(response => {
+    //             console.log(response);
+    //             return new Promise((resolve, reject) => {
+    //                 setTimeout(() => {
+    //                     resolve('Завести дружину на роботу')
+    //                 }, 1500);
+    //             });
+    //         }).then(response => {
+    //             console.log(response);
+    //             return new Promise((resolve, reject) => {
+    //                 setTimeout(() => {
+    //                     resolve('Поїхати на заправку')
+    //                 }, 400);
+    //             });
+    //         }).then(response => {
+    //             console.log(response);
+    //             return new Promise((resolve, reject) => {
+    //                 setTimeout(() => {
+    //                     resolve('Заправити автомобіль')
+    //                 }, 200);
+    //             })
+    //         }).then(response => {
+    //             console.log(response);
+    //             return new Promise((resolve, reject) => {
+    //                 setTimeout(() => {
+    //                     resolve('Випити каву')
+    //                 }, 100);
+    //             })
+    //         }).then(response => {
+    //             console.log(response);
+    //             return new Promise((resolve, reject) => {
+    //                 setTimeout(() => {
+    //                     resolve('Поїхати на роботу')
+    //                 }, 1000);
+    //             })
+    //         }).then(end => {
+    //             console.log(end);
+    //         })
+    //     })
+    // }
+    //
+    // wakeUp();
+
+
+    //Розпорядок дня за допомогою async await
+    // const wakeUp = () => {
+    //     return new Promise(resolve => {
+    //         setTimeout(() => {
+    //             resolve('Прокинутись');
+    //         }, 300);
+    //     });
+    // }
+    // const drinkWater = () => {
+    //     return new Promise(resolve => {
+    //         setTimeout(() => {
+    //             resolve('Випити води');
+    //         }, 200);
+    //     })
+    // }
+    // const brushЕTeeth = () => {
+    //     return new Promise(resolve => {
+    //         setTimeout(() => {
+    //             resolve('Сходив в туалет');
+    //         }, 300);
+    //     });
+    // }
+    // const getDressed = () => {
+    //     return new Promise(resolve => {
+    //         setTimeout(() => {
+    //             resolve('Одягнутисья');
+    //         }, 700);
+    //     });
+    // }
+    // const warmUpCar = () => {
+    //     return new Promise(resolve => {
+    //         setTimeout(() => {
+    //             resolve('Прогріти автомобіль');
+    //         }, 800);
+    //     });
+    // }
+    // const getWifeWork = () => {
+    //     return new Promise(resolve => {
+    //         setTimeout(() => {
+    //             resolve('Завести дружину на роботу');
+    //         }, 1500);
+    //     });
+    // }
+    // const goGasStation = () => {
+    //     return new Promise(resolve => {
+    //         setTimeout(() => {
+    //             resolve('Поїхати на заправку');
+    //         }, 400);
+    //     });
+    // }
+    // const refuelСar = () => {
+    //     return new Promise(resolve => {
+    //         setTimeout(() => {
+    //             resolve('Заправити автомобіль');
+    //         }, 200);
+    //     });
+    // }
+    // const drinkCoffee = () => {
+    //     return new Promise(resolve => {
+    //         setTimeout(() => {
+    //             resolve('Випити каву');
+    //         }, 100);
+    //     });
+    // }
+    // const goWork = () => {
+    //     return new Promise(resolve => {
+    //         setTimeout(() => {
+    //             resolve('Поїхати на роботу');
+    //         }, 1000);
+    //     });
+    // }
+    //
+    // const routine = async () => {
+    //     const a = await wakeUp();
+    //     console.log(a);
+    //     const b = await drinkWater();
+    //     console.log(b);
+    //     const c = await brushЕTeeth();
+    //     console.log(c);
+    //     const d = await getDressed();
+    //     console.log(d);
+    //     const e = await warmUpCar();
+    //     console.log(e);
+    //     const f = await getWifeWork();
+    //     console.log(f);
+    //     const g = await goGasStation();
+    //     console.log(g);
+    //     const h = await refuelСar();
+    //     console.log(h);
+    //     const i = await drinkCoffee();
+    //     console.log(i);
+    //     const j = await goWork();
+    //     console.log(j);
+    // }
+    //
+    // routine();
+
+</script>
+</body>
+</html>
