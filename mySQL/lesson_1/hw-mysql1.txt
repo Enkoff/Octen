@@ -39,7 +39,7 @@ select avg(price) from cars;
 select count(model), model as model from cars group by model;
 
 найти марку машины количество которых больше всего
-//- Потрібно розібратись
+select count(model), model as model from cars group by model order by count(model) desc limit 1;
 
 найти все машины в модели которых вторая и предпоследняя буква "а"
 select * from cars where model like '_a%' and model like '%a_';
@@ -48,5 +48,5 @@ select * from cars where model like '_a%' and model like '%a_';
 select * from cars where length(model) > 8;
 
 ***найти машины цена которых больше чем цена среднего арифметического всех машин
-//- Потрібно розібратись
+
 
