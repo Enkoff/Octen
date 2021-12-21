@@ -48,5 +48,5 @@ select * from cars where model like '_a%' and model like '%a_';
 select * from cars where length(model) > 8;
 
 ***найти машины цена которых больше чем цена среднего арифметического всех машин
-
+select * from cars where price > (select avg(price) from cars);
 
