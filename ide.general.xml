@@ -1,0 +1,5 @@
+<application>
+  <component name="Registry">
+    <entry key="typescript.external.type.definitions.packages" value="express,lodash,mocha,chai,jasmine,react-dom,jest,styled-components,react-native" />
+  </component>
+</application>
