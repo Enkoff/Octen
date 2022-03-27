@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="onboardingAPI.js" type="AUTO_DETECTED" />
       <mapping pattern="signIn" type="AUTO_DETECTED" />
+      <mapping pattern=".svgrrc" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
