@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping pattern="TransactionsSearch.jsx" type="AUTO_DETECTED" />
       <mapping pattern="onboardingAPI.js" type="AUTO_DETECTED" />
       <mapping pattern="signIn" type="AUTO_DETECTED" />
       <mapping pattern=".svgrrc" type="PLAIN_TEXT" />
